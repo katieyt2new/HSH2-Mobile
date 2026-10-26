@@ -1,5 +1,6 @@
 # Home Sheep Home 2: Android touch patch (unofficial)
 
+(if you want to make your own APK from scratch) 
 Notes and a small touch-controls overlay for running your **own legally obtained copy**
 of the desktop version of *Home Sheep Home 2* on Android.
 
