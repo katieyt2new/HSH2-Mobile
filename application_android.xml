@@ -1,0 +1,29 @@
+<application xmlns="http://ns.adobe.com/air/application/51.4">
+  <id>test.hsh2</id>
+  <filename>HSH2</filename>
+  <name>Home Sheep Home 2</name>
+<icon>
+  <image36x36>icons/icon_36.png</image36x36>
+  <image48x48>icons/icon_48.png</image48x48>
+  <image72x72>icons/icon_72.png</image72x72>
+  <image96x96>icons/icon_96.png</image96x96>
+  <image144x144>icons/icon_144.png</image144x144>
+  <image192x192>icons/icon_192.png</image192x192>
+</icon>
+  <versionNumber>1.0.0</versionNumber>
+  <supportedProfiles>mobileDevice</supportedProfiles>
+  <initialWindow>
+    <content>HSH2.swf</content>
+    <fullScreen>true</fullScreen>
+    <aspectRatio>landscape</aspectRatio>
+    <autoOrients>false</autoOrients>
+    <renderMode>direct</renderMode>
+  </initialWindow>
+  <android>
+    <manifestAdditions><![CDATA[
+      <manifest android:installLocation="auto">
+        <uses-sdk android:minSdkVersion="21" />
+      </manifest>
+    ]]></manifestAdditions>
+  </android>
+</application>

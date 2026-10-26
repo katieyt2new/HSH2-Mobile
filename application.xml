@@ -1,0 +1,13 @@
+<application xmlns="http://ns.adobe.com/air/application/51.4">
+  <id>HSH2.swf</id>
+  <filename>HSH2</filename>
+  <name>HSH2</name>
+  <versionNumber>1.0</versionNumber>
+  <initialWindow>
+    <content>HSH2.swf</content>
+    <visible>true</visible>
+    <width>1280</width>
+    <height>720</height>
+    <renderMode>direct</renderMode>
+  </initialWindow>
+</application>
