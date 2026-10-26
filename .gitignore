@@ -1,0 +1,16 @@
+# Never commit the game, its art, or your signing key.
+*.swf
+*.apk
+*.aab
+*.air
+*.p12
+*.keystore
+*.jks
+assets/
+icons/
+*.png
+*.webp
+*.mkv
+# Build output / local notes
+build/*.bat
+touch.swf

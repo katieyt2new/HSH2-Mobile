@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Template. Set <content> to your patched game SWF's file name. -->
+<application xmlns="http://ns.adobe.com/air/application/51.4">
+  <id>your.package.id</id>
+  <filename>HSH2</filename>
+  <name>Home Sheep Home 2</name>
+  <versionNumber>1.0.0</versionNumber>
+  <supportedProfiles>mobileDevice</supportedProfiles>
+  <initialWindow>
+    <content>YOUR_PATCHED_GAME.swf</content>
+    <fullScreen>true</fullScreen>
+    <aspectRatio>landscape</aspectRatio>
+    <autoOrients>false</autoOrients>
+    <!-- gpu is faster on some phones, but caused drawing glitches on others. Try cpu if you see them. -->
+    <renderMode>gpu</renderMode>
+  </initialWindow>
+  <android>
+    <manifestAdditions><![CDATA[
+      <manifest android:installLocation="auto">
+        <uses-sdk android:minSdkVersion="21" />
+      </manifest>
+    ]]></manifestAdditions>
+  </android>
+</application>
