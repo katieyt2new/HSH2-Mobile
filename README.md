@@ -3,12 +3,6 @@
 (if you want to make your own APK from scratch) 
 Notes and a small touch-controls overlay for running your **own legally obtained copy**
 of the desktop version of *Home Sheep Home 2* on Android.
-
-**This repository contains no game files.** No SWF, no art, no sounds, no icons, no APK.
-*Home Sheep Home 2* and its characters belong to Aardman Animations. This project is
-unofficial and not affiliated with or endorsed by them. You need to supply the game yourself
-(for example from your own Steam install), and you should keep any APK you build for your own device.
-
 ## What's here
 
 | Path | What it is |
